@@ -13,7 +13,9 @@ data for an **imitation** policy, and as the reward of a **residual RL** policy.
 
 All numbers below were measured by the scripts in this repository; the raw logs are in `results/*.txt`.
 Success is LIBERO's own predicate (bowl on the plate, within 3 cm of its centre). Unless stated otherwise,
-episodes are capped at **300 steps**, LeRobot's limit for `libero_goal`.
+episodes are capped at **300 steps**, LeRobot's limit for `libero_goal`. As in LIBERO's evaluation, an episode
+succeeds at the first step the predicate holds, which can be while the gripper still holds the bowl on the plate;
+the clip above keeps filming for 2 s after that step: the gripper opens and the bowl stays on the plate.
 
 ### Stage 1: replaying the retargeted hand trajectory
 
