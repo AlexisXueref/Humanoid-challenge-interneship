@@ -1,0 +1,38 @@
+[seed 0] collected 15444 samples from 36/80 successful noisy replays
+[seed 0] final training loss 0.0214
+[seed 0] stage 2 imitation (chunk 10, execute 5), training states: 4/10
+[seed 0] stage 2 imitation (chunk 10, execute 5), held-out states: 2/10
+[seed 0 --near-rim] collected 16107 samples from 36/80 successful noisy replays
+[seed 0 --near-rim] final training loss 0.0160
+[seed 0 --near-rim] stage 2 imitation (chunk 10, execute 5), training states: 2/10
+[seed 0 --near-rim] stage 2 imitation (chunk 10, execute 5), held-out states: 2/10
+[seed 0, takes a767851eec, --out bc_a767851eec_seed0.pt] collected 22199 samples from 79/80 successful noisy replays
+[seed 0, takes a767851eec, --out bc_a767851eec_seed0.pt] final training loss 0.0123
+[seed 0, takes a767851eec, --out bc_a767851eec_seed0.pt] stage 2 imitation (chunk 10, execute 5), training states: 10/10
+[seed 0, takes a767851eec, --out bc_a767851eec_seed0.pt] stage 2 imitation (chunk 10, execute 5), held-out states: 10/10
+[seed 1, takes a767851eec, --out bc_a767851eec_seed1.pt] collected 22480 samples from 80/80 successful noisy replays
+[seed 1, takes a767851eec, --out bc_a767851eec_seed1.pt] final training loss 0.0104
+[seed 1, takes a767851eec, --out bc_a767851eec_seed1.pt] stage 2 imitation (chunk 10, execute 5), training states: 9/10
+[seed 1, takes a767851eec, --out bc_a767851eec_seed1.pt] stage 2 imitation (chunk 10, execute 5), held-out states: 10/10
+[seed 2, takes a767851eec, --out bc_a767851eec_seed2.pt] collected 22480 samples from 80/80 successful noisy replays
+[seed 2, takes a767851eec, --out bc_a767851eec_seed2.pt] final training loss 0.0114
+[seed 2, takes a767851eec, --out bc_a767851eec_seed2.pt] stage 2 imitation (chunk 10, execute 5), training states: 10/10
+[seed 2, takes a767851eec, --out bc_a767851eec_seed2.pt] stage 2 imitation (chunk 10, execute 5), held-out states: 10/10
+[seed 0, takes 239e42a126, --out bc_239e42a126_seed0.pt] collected 38960 samples from 80/80 successful noisy replays
+[seed 0, takes 239e42a126, --out bc_239e42a126_seed0.pt] final training loss 0.0155
+[seed 0, takes 239e42a126, --out bc_239e42a126_seed0.pt] stage 2 imitation (chunk 10, execute 5), training states: 3/10
+[seed 0, takes 239e42a126, --out bc_239e42a126_seed0.pt] stage 2 imitation (chunk 10, execute 5), held-out states: 0/10
+[300 steps] bc_a767851eec_seed0.pt : training states 10/10, held-out states 10/10
+[300 steps] bc_a767851eec_seed1.pt : training states 9/10, held-out states 10/10
+[300 steps] bc_a767851eec_seed2.pt : training states 10/10, held-out states 10/10
+[300 steps] bc_239e42a126_seed0.pt : training states 2/10, held-out states 0/10
+[300 steps] bc_real_seed0.pt : training states 5/10, held-out states 3/10
+[300 steps] bc_real_nearrim_seed0.pt : training states 1/10, held-out states 2/10
+[seed 0, takes a767851eec, --wide --out bc_a767851eec_wide_seed0.pt] collected 17703 samples from 63/80 successful noisy replays
+[seed 0, takes a767851eec, --wide --out bc_a767851eec_wide_seed0.pt] final training loss 0.0125
+[seed 0, takes a767851eec, --wide --out bc_a767851eec_wide_seed0.pt] stage 2 imitation (chunk 10, execute 5), training states: 7/10
+[seed 0, takes a767851eec, --wide --out bc_a767851eec_wide_seed0.pt] stage 2 imitation (chunk 10, execute 5), held-out states: 6/10
+[300 steps, 50 states] bc_a767851eec_seed0.pt : 50/50 (0-39 : 40/40, 40-49 : 10/10)
+[300 steps, 50 states] bc_a767851eec_seed1.pt : 46/50 (0-39 : 36/40, 40-49 : 10/10)
+[300 steps, 50 states] bc_a767851eec_seed2.pt : 50/50 (0-39 : 40/40, 40-49 : 10/10)
+mean 97.3 % , std 3.8 points over 3 seeds
