@@ -151,6 +151,8 @@ Model checkpoints are not committed either: the commands above rebuild them.
 
 ## How this was built
 
-Written with Claude Code (Anthropic) under my direction, in October 2026: I recorded the demonstrations, made the
-design and stopping decisions, and reviewed the results; every number above comes from the scripts in this
-repository, run on my machine.
+I chose the approach and the task, designed the recording protocol, measured the objects and recorded the 21
+demonstrations. I made the scoping and stopping decisions (including stopping the RL and documenting it as a
+negative result) and reviewed the code and every result; reviewing the clip, I caught that it stopped before the
+bowl was released. The code was written with Claude Code (Anthropic) following these decisions, and every number
+comes from the scripts in this repository, run on my machine.
