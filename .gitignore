@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+models/
+syslibs/
+eval_*/
+*.log
+*.npy
+lerobot_commit.txt
+pip_freeze.txt
+results/*.pt
+results/*.zip
+positions_init_states.npy

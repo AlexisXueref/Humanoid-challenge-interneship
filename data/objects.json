@@ -1,0 +1,5 @@
+{
+  "_note": "Real objects used in the recordings, measured with a caliper on 2026-10-07.",
+  "bowl": {"diameter_m": 0.160, "height_m": 0.085},
+  "plate": {"diameter_m": 0.250}
+}
